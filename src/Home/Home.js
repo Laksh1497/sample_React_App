@@ -4,7 +4,7 @@ import axios from "axios"
 
 const fetchRandomData  = () => {
     
-  return axios.get('https://randomuser.me/api/').then (res => {
+  return axios.get('https://dev-calabrio-common-iapi.amplifai-aws.com/api/CommonMethods/FetchMetricsCORSTEST').then (res => {
 
     console.log(res);
     return res;
